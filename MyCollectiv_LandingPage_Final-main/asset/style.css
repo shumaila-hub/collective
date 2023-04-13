@@ -1,0 +1,1243 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+a {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Chelsea Market', cursive;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#main__section {
+    font-family: 'Inter', sans-serif;
+    background: #3C6CA8;
+    width: 100%;
+
+}
+
+.panda__main__div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 60px 0;
+
+}
+
+.panda__main__div .panda__first {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.panda__main__div .panda__second {
+    width: 55%;
+    padding: 100px 20px 0 20px;
+
+}
+
+.panda__main__div .panda__first img {
+    width: 100%;
+}
+
+.panda__main__div .panda__second h1 {
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 70px;
+    text-align: center;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.panda__main__div .panda__second h1 span {
+    color: #FFDC4C;
+    font-family: 'Chelsea Market';
+}
+
+.panda__main__div .panda__second p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.for__arr {
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    align-items: center;
+
+}
+
+.for__arr a .for__scroll_text {
+    font-family: 'Chelsea Market';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    /* line-height: 18px; */
+    text-align: center;
+    color: #000000;
+    margin-bottom: 0;
+
+}
+
+/* ========================2rd section start==================== */
+#second__section {
+    font-family: 'Inter', sans-serif;
+    background: #3C6CA8;
+    width: 100%;
+    padding: 20px 0;
+    /* height: 100vh; */
+}
+
+.mid__main__div {
+    padding: 10px 0;
+}
+
+.second__content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+}
+
+.sec__mid1 {
+    display: none;
+}
+
+.loop-outer-circle {
+    position: relative;
+    max-width: 75rem;
+    margin-top: 8rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 2rem;
+    border: 4px solid #000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 156px;
+    background: #FFDC4C;
+}
+
+.loop-inner-circle {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 14rem;
+    padding: 2rem;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: 2px solid #000;
+    border-radius: 156px;
+    background: #FFDC4C;
+}
+
+.idea-loop-character {
+    position: absolute;
+    top: auto;
+    bottom: 6rem;
+    z-index: 2;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.idea-loop-character-image {
+    width: 18rem;
+}
+
+.loop-row {
+    position: absolute;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-right: 8%;
+    padding-left: 8%;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+/* .idea-loop-text-wrap._1 {
+    position: relative;
+    margin-left: 0.5vw;
+    padding-right: 8rem;
+    padding-left: 2.5vw;
+    text-align: center;
+} */
+.idea-loop-text-wrap._1 {
+    position: relative;
+    margin-left: -5.5vw;
+    padding-right: 3rem;
+    padding-left: 3.5vw;
+    text-align: center;
+}
+
+.idea-loop-text-wrap {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-image: url(asset/images/right.svg);
+    background-position: 0% 50%;
+    background-size: auto;
+    background-repeat: no-repeat;
+    font-size: 1.6rem;
+}
+
+.idea-loop-text {
+    position: relative;
+    z-index: 1;
+    font-family: 'Chelsea Market';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+
+    text-align: center;
+    padding: 0 50px;
+    color: #000000;
+}
+
+.idea-loop-text-bg {
+    position: absolute;
+    left: 0.65rem;
+    top: 0%;
+    right: -25%;
+    bottom: 0%;
+    background-color: #FFDC4C;
+}
+
+.idea-loop-line-cover {
+    position: absolute;
+    left: 50%;
+    width: 12rem;
+    height: 2rem;
+    margin-left: -6rem;
+    background-color: #FFDC4C;
+}
+
+.idea-loop-text-wrap._02 {
+    position: relative;
+    padding-right: 1vw;
+    padding-left: 2.5vw;
+    /* background-image: url(asset/images/right.svg); */
+    background-position: 8% 7px;
+    background-size: 0.75rem;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.idea-loop-text-wrap._04 {
+    position: relative;
+    /* background-image: url(/asset/images/left.svg); */
+    background-position: 100% 10px;
+}
+
+.idea-loop-text-wrap._03 {
+    position: relative;
+    /* background-image: url(asset/images/left.svg); */
+    background-position: 100% 10px;
+}
+
+.idea-loop-text-bg.arrow-right {
+    left: 0px;
+    right: 0.7rem;
+}
+
+.loop-row.top {
+    position: absolute;
+    left: 0%;
+    top: -19px;
+    right: 0%;
+    bottom: auto;
+    padding-right: 16%;
+    padding-left: 16%;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.loop-row.bottom {
+    left: -6%;
+    top: auto;
+    right: -6%;
+    bottom: -0.9rem;
+}
+
+.second__content h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 30px 0;
+}
+
+.idea-loop-text-bg._04 {
+    left: -40px;
+    right: 0.7rem;
+}
+
+.second__content h2 {
+    font-family: 'Chelsea Market';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.sec__mid {
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+/* .second__section__img{
+    width: 80%;
+    margin: auto;
+} */
+
+.sec__mid img {
+    width: 100%;
+}
+
+.mid__sections {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ========================3rd section start==================== */
+#third__section {
+    font-family: 'Inter', sans-serif;
+    background: #3C6CA8;
+    width: 100%;
+
+}
+
+.mission__main__div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.mission__main__div .mission__first {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.mission__main__div .mission__second {
+    width: 55%;
+    padding: 30px 50px;
+}
+
+.for__desk {
+    display: block;
+}
+
+.for__mob {
+    display: none;
+}
+
+.mission__main__div .mission__first img {
+    width: 100%;
+}
+
+.mission__main__div .mission__second h2 {
+    font-family: 'Chelsea Market';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 70px;
+    text-align: center;
+    color: #FFDC4C;
+}
+
+.mission__main__div .mission__second h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.mission__main__div .mission__second p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.for__mission__arr{
+    display: block;
+}
+.mission__main__div .for__mission__arr a .for__scroll_text {
+    font-family: 'Chelsea Market';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    /* line-height: 18px; */
+    text-align: center;
+    color: #000000;
+    margin-bottom: 0;
+
+}
+
+/* ========================contact us section start=================== */
+#fourth__section {
+    font-family: 'Inter', sans-serif;
+    background: #FFDC4C;
+    width: 100%;
+}
+
+#fourth__section1 {
+    display: none;
+}
+
+.contact__main__div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.contact__main__div .contact__first {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact__main__div .contact__second {
+    width: 55%;
+    padding: 100px 0;
+}
+
+.contact__main__div .contact__first img {
+    width: 100%;
+}
+
+.contact__main__div .contact__second h1 {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.contact__main__div .contact__second p {
+    font-family: 'Chelsea Market';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    text-align: center;
+    color: #000000;
+    margin-top: 20px;
+}
+
+.inp__form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__main__div .contact__second .control1 {
+
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 156px;
+    padding: 15px 200px 15px 20px;
+    text-align: start;
+}
+
+.contact__main__div .contact__second .control1:hover {
+    transition: 0.3s;
+    box-shadow: 3px 2px 5px #6DE7D0;
+}
+
+.contact__Arr {
+    position: absolute;
+    left: calc(50% - 33px/2 - 103.5px);
+    /* top: calc(50% - 0px/2 + 35px);s */
+}
+
+.contact__Arr:hover {
+    cursor: pointer;
+}
+
+.fa-arrow-right {
+    font-size: 23px;
+}
+
+#main__section a {
+    padding-top: 0px;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+#main__section a .sec-1span {
+    position: absolute;
+    box-sizing: border-box;
+}
+
+#second__section a {
+    padding-top: 00px;
+    color: #000000;
+    text-decoration: none;
+}
+
+#second__section a .sec-1span {
+    position: absolute;
+    box-sizing: border-box;
+}
+
+#third__section a {
+    padding-top: 0px;
+    color: #000000;
+    text-decoration: none;
+}
+
+#third__section a .sec-1span {
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 75% !important;
+    margin: auto !important;
+    border-radius: 156px;
+    border: 3px solid black !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out !important;
+}
+
+.input-group:hover {
+    box-shadow: 0 2px 3px 2px #3C6CA8;
+}
+
+.input-group-text {
+    display: flex;
+    align-items: center;
+    padding: 0.375rem 1rem !important;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    white-space: nowrap;
+    background-color: white !important;
+    border: 0 !important;
+
+    border-radius: 0px 156px 156px 0px !important;
+}
+
+.input-group-text .fa-arrow-right:hover {
+    cursor: pointer;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.7rem 0.75rem !important;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0 !important;
+    border-right: 0 !important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* border-radius: 0.375rem; */
+    border-radius: 156px 0 0 156px !important;
+    transition: border-color 0s ease-in-out, box-shadow 0s ease-in-out !important;
+
+
+}
+
+.input-group>.form-control,
+.input-group>.form-floating,
+.input-group>.form-select {
+    position: relative;
+    flex: 1 1 auto;
+    width: 1%;
+    min-width: 0;
+    border: none;
+    box-shadow: none !important;
+}
+
+@media screen and (max-width:1380px) {
+    .panda__main__div .panda__second {
+        width: 55%;
+        padding: 110px 0px 0 0px;
+
+    }
+
+}
+
+/* ===========================smalll devicess=================== */
+@media screen and (max-width:1024px) {
+
+    #fourth__section {
+        display: block;
+        font-family: 'Inter', sans-serif;
+        background: #FFDC4C;
+        width: 100%;
+    }
+
+    .panda__main__div {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 20px 0;
+
+    }
+
+    .panda__main__div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .panda__main__div .panda__first {
+        width: 70%;
+        margin: auto;
+    }
+
+    .panda__main__div .panda__second {
+        width: 100%;
+        padding-top: 0px;
+
+        transform: translateY(-20px);
+
+    }
+
+    .panda__main__div .panda__second h1 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+
+    .panda__main__div .panda__second p {
+        font-size: 25px;
+    }
+
+    .mission__main__div .mission__second h2 {
+        font-size: 35px;
+        line-height: 40px;
+
+    }
+
+    .mission__main__div .mission__second h1 {
+
+        font-size: 45px;
+        line-height: 50px;
+
+    }
+
+    .mission__main__div .mission__second p {
+
+        font-size: 23px;
+        line-height: 35px;
+
+    }
+
+    .for__arr {
+
+        position: relative;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+
+    }
+
+    .for__arr a .for__scroll_text {
+        font-family: 'Chelsea Market';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 23px;
+    }
+
+    .mission__main__div {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .mission__main__div .mission__first {
+        display: none;
+
+
+    }
+
+    .mission__main__div .mission__second {
+        width: 100%;
+
+    }
+
+    .for__desk {
+        display: none;
+    }
+
+    .contact__main__div {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .contact__main__div .contact__first {
+        display: none;
+
+    }
+
+    .contact__main__div .contact__second {
+        width: 100%;
+    }
+
+    .contact__main__div .contact__second .control1 {
+
+        background: #FFFFFF;
+        border: 2px solid #000000;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 156px;
+        padding: 15px 100px 15px 20px;
+        text-align: start;
+    }
+
+    .for__mission__arr {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .sec__mid {
+        display: none;
+    }
+
+    .sec__mid1 {
+        display: block;
+    }
+
+    .container.loop-container {
+        padding-right: 0rem;
+        padding-left: 0rem;
+    }
+
+    .loop-outer-circle {
+        margin-top: 5.75rem;
+        margin-bottom: 0rem;
+        padding: 3rem;
+
+        border-radius: 2rem;
+    }
+
+    .loop-inner-circle {
+        min-height: 25rem;
+        border-radius: 1rem;
+    }
+
+    .idea-loop-character {
+        bottom: 4rem;
+    }
+
+    .idea-loop-text-bg {
+        position: absolute;
+        left: 0.65rem;
+        top: 0%;
+        right: 0%;
+        bottom: 0%;
+        background-color: #FFDC4C;
+    }
+
+    .idea-loop-character-image {
+        width: 20rem;
+    }
+
+    .loop-row.top {
+        top: -0.95rem;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
+    .idea-loop-text-wrap._1 {
+        margin-left: 0vw;
+        padding-right: 1.3rem;
+        padding-left: 1.3rem;
+        background-position: 0% 4px;
+        background-size: 0.7rem;
+    }
+
+    .idea-loop-text {
+        font-size: 1.1rem;
+        padding: 0;
+    }
+
+    .idea-loop-line-cover {
+        width: 30%;
+        margin-left: -15%;
+    }
+
+    .idea-loop-text-wrap._02 {
+        padding-right: 1rem;
+        padding-left: 1.3rem;
+        background-position: 0% 4px;
+        background-size: 0.7rem;
+    }
+
+    .loop-row.bottom {
+        bottom: -0.7rem;
+
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+
+    .idea-loop-text-wrap._04 {
+        padding-right: 1.3rem;
+        padding-left: 1rem;
+        background-position: 100% 6px;
+    }
+
+    .idea-loop-text-wrap._03 {
+        padding-right: 1.3rem;
+        padding-left: 1rem;
+        background-position: 100% 6px;
+    }
+
+    .idea-loop-text-bg._04 {
+        left: 0px;
+        right: 0.7rem;
+    }
+}
+
+@media screen and (max-width:840px) {
+    .panda__main__div .panda__second h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .loop-row.bottom {
+        left: 0%;
+        top: auto;
+        right: 0%;
+        bottom: -0.9rem;
+    }
+}
+
+@media screen and (max-width:740px) {
+    .panda__main__div .panda__second {
+        width: 100%;
+        padding-top: 0px;
+
+        transform: translateY(0px);
+
+    }
+
+    .contact__main__div .contact__second p {
+
+        font-size: 20px;
+        line-height: 38px;
+
+    }
+
+    .contact__main__div .contact__second {
+        padding: 10px;
+    }
+
+    #fourth__section {
+        display: block;
+        font-family: 'Inter', sans-serif;
+        background: #FFDC4C;
+        width: 100%;
+        /* height: 50vh; */
+    }
+
+    #third__section {
+        /* height: 50vh; */
+    }
+
+    #second__section {
+        /* height: 100vh; */
+        align-items: center;
+        justify-content: center;
+        padding: 30px 0;
+    }
+
+    .panda__main__div .panda__second h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .panda__main__div .panda__second p {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .mission__main__div .mission__second h2 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .mission__main__div .mission__second h1 {
+
+        font-size: 45px;
+
+    }
+
+    .mission__main__div .mission__second p {
+
+        font-size: 18px;
+
+        line-height: 35px;
+
+    }
+
+    .contact__Arr {
+        position: relative;
+        transform: translateX(-180px);
+
+    }
+
+    .second__content h3 {
+
+        font-size: 24px;
+    }
+
+    .second__content h2 {
+        font-size: 30px;
+    }
+
+    .for__arr p {
+
+        font-size: 18px;
+
+    }
+
+    .contact__main__div .contact__second {
+
+        padding: 30px 20px;
+    }
+
+    .loop-row.bottom {
+        bottom: -0.8rem;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
+    .contact__main__div .contact__second h1 {
+
+        font-size: 45px;
+        line-height: 50px;
+    }
+
+}
+
+/* @media screen and (max-width:640px) {
+    .contact__Arr {
+        position: relative;
+        transform: translateX(-130px);
+
+    }
+} */
+@media screen and (max-width: 840px) {
+    .loop-outer-circle {
+        margin-top: 4rem;
+        padding: 2.5rem 1.5rem;
+        border-radius: 2rem;
+    }
+
+    .loop-inner-circle {
+        min-height: 20rem;
+        border-radius: 0.5rem;
+    }
+
+    .idea-loop-character {
+        bottom: 5rem;
+    }
+
+    .loop-row.top {
+        position: static;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
+    .idea-loop-text-wrap._1 {
+        position: absolute;
+        top: -0.95rem;
+        -webkit-transform: translate(-50%, 0px);
+        -ms-transform: translate(-50%, 0px);
+        transform: translate(-50%, 0px);
+    }
+
+    .idea-loop-text {
+        font-size: 1.1rem;
+        /* white-space: nowrap; */
+        padding: 0 5px;
+    }
+
+    .idea-loop-character-image {
+        width: 12rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .idea-loop-text-wrap._02 {
+        position: absolute;
+        right: 0px;
+        background-position: 0% 4px;
+        background-size: 0.675rem;
+        -webkit-transform: translate(51%, 0%) rotate(90deg);
+        -ms-transform: translate(51%, 0%) rotate(90deg);
+        transform: translate(51%, 0%) rotate(90deg);
+    }
+
+    .idea-loop-text-wrap._03 {
+        position: absolute;
+        left: 50%;
+        bottom: 0px;
+        width: 9.3rem;
+        margin-left: -4.75rem;
+        background-position: 100% 58px;
+    }
+
+    .idea-loop-text-wrap._04 {
+        position: absolute;
+        left: 0px;
+        width: 12.5rem;
+        margin-top: -10rem;
+        padding-right: 0.7rem;
+        padding-left: 0.5rem;
+        background-position: 99% 5px;
+        background-size: 0.65rem;
+        -webkit-transform: translate(-50%, 0%) rotate(90deg);
+        -ms-transform: translate(-50%, 0%) rotate(90deg);
+        transform: translate(-50%, 0%) rotate(90deg);
+    }
+
+    .idea-loop-line-cover {
+        display: none;
+    }
+
+    #fourth__section {
+        display: block;
+        font-family: 'Inter', sans-serif;
+        background: #FFDC4C;
+        width: 100%;
+        /* height: 40vh; */
+    }
+
+    .contact__main__div .contact__second {
+
+        padding: 30px 10px;
+    }
+
+    .contact__main__div .contact__second p {
+
+        font-size: 18px;
+        line-height: 38px;
+
+    }
+
+}
+
+@media screen and (max-width:540px) {
+    .input-group {
+
+        width: 95% !important;
+        margin: auto !important;
+
+    }
+
+    .contact__main__div .contact__second p {
+        font-size: 16px;
+        line-height: 38px;
+    }
+
+    .panda__main__div .panda__second p {
+        padding: 10px 20px;
+        margin-top: 10px;
+    }
+
+    .for__arr a .for__scroll_text {
+        font-size: 18px;
+    }
+
+    .mission__main__div .mission__second {
+
+        padding: 30px 30px;
+    }
+
+    .for__mission__arr {
+        display: none;
+    }
+
+
+}
+
+@media screen and (max-width:490px) {
+    .panda__main__div .panda__second h1 span {
+        color: #FFDC4C;
+        font-family: 'Chelsea Market';
+        margin-left: 20px;
+    }
+
+    .for__arr {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        margin-right: 30px;
+    }
+
+    .second__content h3 {
+        font-size: 24px;
+        margin-top: 0;
+    }
+    .second__content h3 {
+        font-size: 20px;
+        margin-top: 0;
+    }
+
+    .second__content h2 {
+        font-size: 25px;
+    }
+
+}
+@media screen and (max-width:390px) {
+    .loop-outer-circle {
+        margin-top: 2rem;
+        padding: 2.5rem 1.5rem;
+        border-radius: 2rem;
+    }
+    .idea-loop-text {
+        font-size: 0.9rem;
+        /* white-space: nowrap; */
+        padding: 0 5px;
+    }
+
+    .idea-loop-text-wrap._02 {
+        position: absolute;
+        right: 0px;
+        background-position: 0% 2px;
+    }
+
+    .idea-loop-text-wrap._04 {
+        position: absolute;
+        left: 0px;
+        width: 12.5rem;
+        margin-top: -9rem;
+        padding-right: 0.7rem;
+        padding-left: 0.5rem;
+        background-position: 99% 3px;
+    }
+
+    .idea-loop-text-wrap._03 {
+        position: absolute;
+        left: 50%;
+        bottom: 0px;
+        width: 9.3rem;
+        margin-left: -4.75rem;
+        background-position: 100% 43px;
+    }
+
+}
+@media screen and (max-width:360px) {
+    .second__content h3 {
+        font-size: 18px;
+        margin-top: 0;
+    }
+
+    .second__content h2 {
+        font-size: 22px;
+    }
+
+    .for__arr a .for__scroll_text {
+        font-size: 16px;
+    }
+
+    .contact__main__div .contact__second p {
+        font-size: 13px;
+        line-height: 38px;
+        margin-bottom: 0;
+    }
+    .mission__main__div .mission__second h2 {
+        font-size: 32px;
+        line-height: 50px;
+    }
+    .mission__main__div .mission__second h1 {
+        font-size: 40px;
+    }
+    .contact__main__div .contact__second h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .panda__main__div .panda__second p {
+        padding: 0px 10px;
+        margin-top: 10px;
+    }
+}
